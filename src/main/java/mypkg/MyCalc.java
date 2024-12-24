@@ -17,6 +17,7 @@ public class MyCalc {
 	int mul2 (int a, int b)
 	{
 		return a*b;
+	}
 
 	public static void main(String[] args) {
 		MyCalc calc= new MyCalc();
