@@ -24,6 +24,8 @@ public class MyCalc {
 	}
 
 	public static void main(String[] args) {
+
+		System.out.println(" Inside main class");
 		MyCalc calc= new MyCalc();
 		System.out.println("Sum is : "+calc.sum(20, 10));
 		System.out.println("Diff is : "+calc.diff(20, 10));
